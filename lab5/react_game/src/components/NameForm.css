@@ -1,0 +1,40 @@
+/* NameForm.css */
+
+/* 整体容器样式 */
+.NameForm-container {
+    max-width: 400px; /* 最大宽度 */
+    margin: 0 auto; /* 居中 */
+  }
+  
+  /* 输入框样式 */
+  .NameForm-input {
+    width: 100%; /* 宽度100% */
+    padding: 10px; /* 内边距 */
+    margin-bottom: 10px; /* 底部外边距 */
+    border: 1px solid #ccc; /* 边框 */
+    border-radius: 4px; /* 边框圆角 */
+    box-sizing: border-box; /* 盒模型 */
+  }
+  
+  /* 提交按钮样式 */
+  .NameForm-submit-button {
+    width: 100%; /* 宽度100% */
+    padding: 10px; /* 内边距 */
+    background-color: #007bff; /* 背景色 */
+    color: #fff; /* 文本颜色 */
+    border: none; /* 去掉边框 */
+    border-radius: 4px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针 */
+  }
+  
+  /* 项目列表样式 */
+  .NameForm-item-list {
+    list-style-type: none; /* 去掉列表标记 */
+    padding: 0; /* 内边距 */
+  }
+  
+  /* 项目列表项样式 */
+  .NameForm-list-item {
+    margin-bottom: 5px; /* 底部外边距 */
+  }
+  
